@@ -38,7 +38,9 @@ const Experience = () => {
       className="border-b border-neutral-900 pb-4"
       id="Experience"
     >
-      <h2 className="my-16 text-white text-center text-4xl">Experience</h2>
+      <div className="flex justify-center items-center p-10">
+      <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-md font-medium tracking-tight text-transparent md:text-3xl">Experience</span>
+      </div>
       {EXPERIENCE.map((exp, index) => (
         <div
           key={index}

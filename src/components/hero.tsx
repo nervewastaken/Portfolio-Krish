@@ -13,6 +13,7 @@ import { TGEkrish } from './gentext'
 import { CanvasKrish } from './canvas'
 import Image from 'next/image'
 import krish from '@/components/krish.jpg'
+import { Movingbutton } from './coolbutton'
 
 
 
@@ -40,6 +41,16 @@ const Hero = () => {
       <TGEkrish/>
       </div>
       <CanvasKrish/>
+      <div className='flex justify-center items-center'>
+      <span className='mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-md font-medium tracking-tight text-transparent md:text-3xl'>
+        Certification
+      </span>
+      </div>
+      <div className='flex justify-center items-center'>
+        <span className='text-xl text-white'>Supervised Machine Learning: Regression and Classification</span> 
+        <a className='p-5' href='https://www.coursera.org/account/accomplishments/verify/4RT9B7PA5J7N'><Movingbutton/></a>
+      </div>
+
     </section>
 
 
