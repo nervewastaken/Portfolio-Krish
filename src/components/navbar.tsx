@@ -20,16 +20,17 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#skills">Skills</HoveredLink>
             <HoveredLink href="#webdev">Web Development</HoveredLink>
             <HoveredLink href="#ml">Machine Learning</HoveredLink>
-            <HoveredLink href="dm">Digital Marketing</HoveredLink>
 
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            
+        
+       
+        <MenuItem setActive={setActive} active={active} item="About">
+          <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="#about">About Me</HoveredLink>
+            <HoveredLink href="#proj">Projects</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Links">
@@ -40,14 +41,6 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="https://leetcode.com/u/krishverma2004/">Leetcode</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="About">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#about">About Me</HoveredLink>
-            <HoveredLink href="#exp">Experience</HoveredLink>
-            <HoveredLink href="#education">Education</HoveredLink>
-          </div>
-        </MenuItem>
-
       </Menu>
     </div>
   );
