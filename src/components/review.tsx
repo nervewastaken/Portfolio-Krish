@@ -4,7 +4,7 @@ import { PinContainer } from "@/components/ui/3d-pin";
 
 export function ReviewPin() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[20rem] w-full flex items-center justify-center ">
       <PinContainer
         title="Deployment Link"
         href="https://review-app-kohl.vercel.app/"
