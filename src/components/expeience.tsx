@@ -38,13 +38,13 @@ const Experience = () => {
       className="border-b border-neutral-900 pb-4"
       id="Experience"
     >
-      <div className="flex justify-center items-center p-10">
+      <div className="flex justify-center items-center p-1">
       <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-md font-medium tracking-tight text-transparent md:text-3xl">Experience</span>
       </div>
       {EXPERIENCE.map((exp, index) => (
         <div
           key={index}
-          className="mb-8 flex flex-wrap justify-center"
+          className="mb-8 flex flex-wrap justify-center "
         >
           <div className="w-full lg:w-1/4">
             <p className="mb-2 text-sm text-neutral-400 mr-10">{exp.year}</p>
@@ -57,7 +57,7 @@ const Experience = () => {
             {exp.skiils.map((tech, idx) => (
               <span
                 key={idx}
-                className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500"
+                className="mr-2 mt-4 rounded  text-sm font-medium text-purple-500"
               >
                 {tech}
               </span>

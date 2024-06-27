@@ -5,11 +5,8 @@ import Hero from "@/components/hero";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center">
+    <main className="">
       <LampDemo/>
-      <div className="p-24">
-      
-      </div>
       <Hero/>
 
     </main>
