@@ -70,7 +70,8 @@ const projects = [
   {
     title: "Blogger App",
     href: "",
-    description: "",
+    description:
+      "CRUD operations for blogs and comments, User Authentication using JWT secret and admin account for moderation. ",
     dates: "",
     tags: ["React", "Node.js", "Express", "JSON Web Tokens", "PostgreSQL"],
     link: "",
@@ -80,12 +81,7 @@ const projects = [
       {
         icon: <FaGithub />,
         type: "GitHub",
-        href: "",
-      },
-      {
-        icon: <FaLink />,
-        type: "Live Demo",
-        href: "",
+        href: "https://github.com/nervewastaken/blogger-app",
       },
     ],
     className: "custom-classname",
@@ -115,13 +111,12 @@ const projects = [
         type: "GitHub",
         href: "",
       },
-      
     ],
     className: "custom-classname",
   },
   {
     title: "Vehicle Detection",
-    href: "",
+    href: "https://github.com/nervewastaken/VehicleDetection",
     description:
       "Creation and Annotation of a vehicle dataset (Car, Bike, Auto, Truck) achieving over 90% accuracy.",
     dates: "May 2024",
@@ -134,35 +129,7 @@ const projects = [
       {
         icon: <FaGithub />,
         type: "GitHub",
-        href: "",
-      },
-      {
-        icon: <FaLink />,
-        type: "Live Demo",
-        href: "",
-      },
-    ],
-    className: "custom-classname",
-  },
-  {
-    title: "Sentiment Analysis of Oppenheimer Reviews",
-    href: "",
-    description: "",
-    dates: "",
-    tags: ["Pytorch", "Natural Language Processing Toolkit", "Scikit-Learn"],
-    link: "",
-    image: "",
-    video: "",
-    links: [
-      {
-        icon: <FaGithub />,
-        type: "GitHub",
-        href: "",
-      },
-      {
-        icon: <FaLink />,
-        type: "Live Demo",
-        href: "",
+        href: "https://github.com/nervewastaken/VehicleDetection",
       },
     ],
     className: "custom-classname",
