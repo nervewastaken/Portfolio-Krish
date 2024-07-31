@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "@/components/ui/moving-border";
 
 export function Movingbutton() {
+  console.log("gay");
   return (
     <div>
       <Button

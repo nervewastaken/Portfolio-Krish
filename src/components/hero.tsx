@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Aboutflips } from "./webflips";
-import Skills from "./tech";
+import Skills, { DevOpstech, MLtech } from "./tech";
 import Education from "./education";
 import Experience from "./expeience";
 
@@ -21,7 +21,10 @@ const Hero = () => {
             Web Development
           </span>
         </div>
-        <Aboutflips />
+        <div className="flex justify-center items-center px-10 py-12">
+          <Aboutflips />
+        </div>
+
         <Skills />
       </section>
 
@@ -31,10 +34,12 @@ const Hero = () => {
             Machine Learning
           </span>
         </div>
-        <div className="flex justify-center items-center px-10">
+        <div className="flex justify-center items-center px-24">
           <TGEkrish />
         </div>
-        <CanvasKrish />
+        <div className="px-24 py-10 flex justify-center items-center">
+          <MLtech />
+        </div>
         <div className="flex justify-center items-center">
           <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-md font-medium tracking-tight text-transparent md:text-3xl">
             Certification
@@ -50,6 +55,22 @@ const Hero = () => {
           >
             <Movingbutton />
           </a>
+        </div>
+      </section>
+
+      <section id="DevOps">
+        <div className="flex justify-center items-center">
+          <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl ">
+            DevOps
+          </span>
+        </div>
+        <div className="p-12">
+          <p className="xxs:mt-4 md:mt-0 xl:px-12 xs:text-justify md:text-base lg:text-lg xl:text-1xl xxs:text-center text-white ">
+            DevOps is the the most important part of Software Development. Without it, we would have the &quot;Blue Screen of Death&quot; everywhere. I also provide excellent ops solutions with various softwares
+          </p>
+        </div>
+        <div>
+          <DevOpstech/>
         </div>
       </section>
 
