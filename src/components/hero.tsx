@@ -17,7 +17,7 @@ const Hero = () => {
     <>
       <section id="webdev" className="justify-center items-center">
         <div className="flex justify-center items-center">
-          <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl ">
+          <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-12 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
             Web Development
           </span>
         </div>
@@ -28,7 +28,7 @@ const Hero = () => {
         <Skills />
       </section>
 
-      <section id="ml" className="justify-center items-center">
+      <section id="ml" className="justify-center items-center py-12">
         <div className="flex justify-center items-center">
           <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl ">
             Machine Learning
@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section id="DevOps">
+      <section id="DevOps" className="py-12">
         <div className="flex justify-center items-center">
           <span className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl ">
             DevOps
@@ -66,11 +66,14 @@ const Hero = () => {
         </div>
         <div className="p-12">
           <p className="xxs:mt-4 md:mt-0 xl:px-12 xs:text-justify md:text-base lg:text-lg xl:text-1xl xxs:text-center text-white ">
-            DevOps is the the most important part of Software Development. Without it, we would have the &quot;Blue Screen of Death&quot; everywhere. I also provide excellent ops solutions with various softwares
+            DevOps is the the most important part of Software Development.
+            Without it, we would have the &quot;Blue Screen of Death&quot;
+            everywhere. I also provide excellent ops solutions with various
+            softwares
           </p>
         </div>
         <div>
-          <DevOpstech/>
+          <DevOpstech />
         </div>
       </section>
 
